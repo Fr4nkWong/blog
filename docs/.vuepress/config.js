@@ -12,6 +12,44 @@ module.exports = {
       {text: '数据科学', link: '/tech/data_science/' },
       {text: '关于我', link: '/about/'}      
     ],
-    sidebar: 'auto', // 侧边栏配置
-  }
+    sidebar: {
+      '/about/': [
+        ''
+      ],
+      '/tech/front_end/': [
+        '',
+        {
+          title: 'Javascript',   
+          path: '/tech/front_end/js/',     
+          collapsable: true, 
+          sidebarDepth: 2, 
+          children: [
+            '/'
+          ]
+        },
+        {
+          title: 'CSS',   
+          path: '/tech/front_end/css/',     
+          collapsable: true, 
+          sidebarDepth: 2, 
+          children: [
+            '/'
+          ]
+        },
+        {
+          title: 'HTML',   
+          path: '/tech/front_end/html/',     
+          collapsable: true, 
+          sidebarDepth: 2, 
+          children: [
+            '/'
+          ]
+        }
+      ],
+      '/': [
+        ''
+      ]
+    }
+  },
+  evergreen: true
 };
