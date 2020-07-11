@@ -1,4 +1,4 @@
 ---
-title: 前端
+title: 关于前端
 sidebarDepth: 1
 ---

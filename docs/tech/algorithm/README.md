@@ -1,4 +1,4 @@
 ---
-title: 数据科学
+title: 关于算法
 sidebarDepth: 1
 ---
